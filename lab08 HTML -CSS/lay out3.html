@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lists, Table and Forms</title>
+    <style>
+        body{
+            font-family: Arial, Verdana, sans-serif;
+        }
+        .sao{
+            padding-left: 20px;
+        }
+        form{
+            width: 300px;
+        }
+        .Register{
+            margin-left: 200px;
+        }
+
+        th{
+            border: 2px solid #c1d5e2;
+            color: #F5F5F5;
+            background-color: #8fb3d5;
+            text-shadow: -1px -1px #bbbbbb;
+            letter-spacing: 0.5px;
+           border-bottom-color: #3577ba;
+        }
+        td{
+            border: 1px solid #c1d5e2;
+            background-color: #e0e9ef;
+        }
+        .Register{
+            background-color: #15ba89;
+            color: #F5F5F5;
+        }
+
+    </style>
+</head>
+<body>
+<h1><strong>Poetry Workshops</strong></h1>
+<p>We will be conducting the a number of poetry workshops and symposiums throughout the year.</p>
+<p>Please note that the following events are free to members:</p>
+
+<p class="sao"><img src="img/star.png" height="16" width="16"/> A Poetic Perspective
+    <br/>
+    <img src="img/star.png" height="16" width="16"/> Wait Whitman at War
+    <br/>
+    <img src="img/star.png" height="16" width="16"/> Found Poems and Outsider Poetry
+</p>
+<table cellspacing="0">
+  <and class="ten">
+      <tr>
+          <th></th>
+          <th>New York</th>
+          <th>Chicago</th>
+          <th>San Francisco</th>
+      </tr>
+  </and>
+   <tbody>
+   <tr>
+       <td><strong> A Poetic Perspective</strong></td>
+       <td>Sat, 4 Feb 2021 <br>
+           11am - 2pm</td>
+       <td>Sat, 3 Mar 2021 <br>
+           11am - 2pm</td>
+       <td>Sat, 17 Mar 2021 <br>
+           11am - 2pm</td>
+   </tr>
+   <tr>
+       <td><strong> Walt Whitman at War</strong></td>
+       <td>Sat, 7 Apr 2021 <br>
+           11am - 1pm</td>
+       <td>Sat, 5 May 2021 <br>
+           11am - 1pm</td>
+       <td>Sat, 19 May 2021 <br>
+           11am - 1pm</td>
+   </tr>
+   <tr>
+       <td><strong> Found Poems & Outsider Poetry </strong></td>
+       <td>Sat, 9 Jun 2021 <br>
+           11am - 2pm</td>
+       <td>Sat, 7 Jul 2021 <br>
+           11am - 2pm</td>
+       <td>Sat, 21 Jul 2021 <br>
+           11am - 2pm</td>
+   </tr>
+   <tr>
+       <td><strong> Natural Death: An Exploration </strong></td>
+       <td>Sat, 4 Aug 2021 <br>
+           11am - 4pm</td>
+       <td>Sat, 8 Sep 2021 <br>
+           11am - 4pm</td>
+       <td>Sat, 15 Sep 2021 <br>
+           11am - 4pm</td>
+   </tr>
+   </tbody>
+</table>
+<br/>
+<form action="http://www.example.com/subscrribe.php">
+    <fieldset>
+        <legend><i>Register your internet</i></legend>
+        <br/>
+        <label> Your name: <input type="text" name="name"></label>
+        <br>
+        <br>
+        <label> Your email: <input type="text" name="email"></label>
+        <br/>
+        <br>
+        <label>  Your closest center:
+            <select name="center" class="som" size="1" multiple="multiple">
+                <option value="New York">New York</option>
+            </select>
+        </label>
+        <br/>
+        <br>
+        <lable> Are you a member?
+            <input type="radio" name="Yes"> Yes
+            <input type="radio" name="No"> No
+        </lable>
+        <br/>
+        <br>
+    </fieldset>
+    <br>
+    <input class="Register" type="submit" name="Regiter" value="Register">
+</form>
+</body>
+</html>
