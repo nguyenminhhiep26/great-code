@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jQuery-2.1.3.min.js"></script>
+    <script type="text/javascript">
+        $ (document) .ready(function (){
+            var employeeJSON = [
+                {
+                    "firstName": "Todd",
+                    "lastName": "Grover",
+                    "gender": "Male",
+                    "salary": 5000
+                },
+                {
+                    "firstName": "Sara",
+                    "lastName": "Baker",
+                    "gender": "Female",
+                    "salary": 4000
+                }
+            ];
+            var JSONSting = JSON.stringify(employeeJSON);
+            $('#resultDiv').html(JSONSting);
+        });
+    </script>
+</head>
+<body>
+<div style="font-family: Arial">
+    <div id="resultDiv"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#div1").load("https://s3-us-west-2.amazonaws.com/ajaxex/html/ajaxContent.html", function (responseTxt, statusTxt, xhr)){});
+            if (statusTxt === "success")
+                alert("Remote content loaded successfully!");
+            if (statusTxt === "error")
+                alert("Error: " + xhr.status + ": " + xhr.statusText);
+        };
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="container">
+<div id="div1"><h2>Executing Ajax load and Callback</h2></div>
+    <button>GET CONTENT FROM REMOTE HTML FILE</button>
+</div>
+</body>
+</html>
