@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlna="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script 
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-Bbhd1vQf/xTY9gja0Dq3HiwQF8LaCRTXxIKRutelT44="
+    crossorigin="anonymous="></script>
+    <script 
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
+    integrity="sha256-VarF97zCwtekAsvgFDSUwPFKdrwD3umUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css"
+    href="htpps://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"/>
+    <script src="htpps://cdn.datatables.net/1.10.13/ja/jquary.dataTables.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function (){
+        $("#datatable").dataTable();
+    });
+</script>
+</head>
+<body style="font-family: Arial">
+<form id="form1" runat="server">
+    <div style="width: 500px; border: 1px solid black; padding: 5px">
+        <table id="datatable">
+            <thead>
+            <tr>
+                <th>10</th>
+                <th>City</th>
+                <th>Country</th>
+                <th>Continent</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>1</td>
+                <td>Monteria</td>
+                <td>Colombia</td>
+                <td>South America</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Birmingham</td>
+                <td>United Kingdom</td>
+                <td>Europe</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Bangalore</td>
+                <td>India</td>
+                <td>Asia</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</form>
+
+</body>
+</html>

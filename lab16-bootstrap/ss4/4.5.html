@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function (){
+            $('button').click(function (){
+                $("#div1").load("test.txt");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="div1"><h2>Ajax load demo</h2></div>
+<button>Get test file Content</button>
+</body>
+</html>

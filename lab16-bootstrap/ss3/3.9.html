@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://vmw.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript”>
+    $(document).ready(function () {
+    $( ’ul' ) .on( ’click’, ’li\ function () {
+    $(this).fadeOut(500);
+    });
+    $('#btnAdd’).on(’click', function () {
+    $(’ul').append('<li>New List Item</li>');
+});
+$( ’#btnllndelegate ’ ) .on( 'click', function () {
+    $(’ul’).off('click', 'li');
+});
+});
+    </script>
+    </head>
+<body style=wfont-family:Arial">
+<input id="btnAdd" type="button" value="Add a New List Item" />
+<input id="btnUndelegate" type-"button" value="Undelegate" />
+<ul>
+    <li>List Iteml</li>
+    <li>List Item2</li>
+</ul>
+</body>
+</html>

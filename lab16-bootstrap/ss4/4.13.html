@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajiax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function (){
+        $("button").click(function (){
+            $.post("demo_test_post.asp",
+                {
+                    name:"Bruce Wayne",
+                    city: "Gotham"
+                },
+            function (data,status){
+                alert("Data:"+data+"\nStatus: "+ status);
+            });
+        });
+    });
+</script>
+</head>
+<body>
+<button>Send an HTTP POST request and get the result black</button>
+</body>
+</html>

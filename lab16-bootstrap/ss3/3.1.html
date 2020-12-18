@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function multiply(var1,var2,var3)
+    {
+        return(var1*var2*var3);
+    }
+    document.write("Basic Way:"+Multiply(10,10,8));
+    document.write("<br>");
+    (function (){
+        document.write(("Self Invoking Function, Holle! I calles myself");
+        )});
+    $(document).ready(function (){
+        $.fn.myFunction = function (){
+            alert('you have seccessfully defined the function!')
+        }
+        $(".call-btn").click(function ()){
+            $.fn.myFunction
+        };
+    });
+</script>
+</head>
+<body>
+<div id="div1"><h2>Funtions in JQuery</h2></div>
+<button type="button" class="call-btn">Click Me</button>
+</body>
+</html>

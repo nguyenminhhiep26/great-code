@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajiax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function (){
+        $("button").click(function (){
+            $.get("demo_test.asp", function (data, status){
+                alert("Data: "+ data+ "\nStatus: "+ status);
+            });
+        });
+    });
+</script>
+</head>
+<body>
+<button>Get reaponse from concerning asp page</button>
+</body>
+</html>

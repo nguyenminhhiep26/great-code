@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).redy(function (){
+            var result = $('input[type="checkbox"]:ckecked');
+            if(result.length>0){
+                var resultString = result.length + "ckeckbox(s) cheked<br/>";
+                result.each(function (){
+                    resultString+=$(this).val()+"<br/>";
+                });
+                $('#divresult').html(resultString);
+            }
+            else {
+                $('#divResult').html("no checkbox checked");
+            }
+        });
+    </script>
+    <title>Title</title>
+</head>
+<body>
+<input type="checkbox" name="skills" value="India" />India
+<input type="checkbox" name="skills" value="germany" />germany
+<input type="checkbox" name="skills" value="croatia" />croatia
+<input type="checkbox" name="skills" value="Russia" />russia
+<br/><br/>
+<div id="divResult"></div>
+</body>
+</html>

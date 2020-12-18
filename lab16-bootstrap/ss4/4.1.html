@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+    <script src="https://googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script>
+        function myFunction(){
+            var str = "HELLO WORLD";
+            var res = str.charAt(0);
+            document.write("cHarAT Function: "+"" +res);
+            document.write("<br>");
+            var str1 = "FOLKS"
+            document.write("concat Function:"+"" +str.concat(str1));
+            document.write("<br>");
+            document.write("Index Of Function:"+"" +str.indexOf("WORLD"));
+            document.write("<br>");
+            document.write("Length of string:"+"" +str.length);
+            document.write("<br>");
+            document.write("Converting to Lower case:"+"" + str.toLocaleLowerCase());
+        }
+    </script>
+<body>
+<p>Click here to execute builtin functions in jQuery.</p>
+<button oclick=myFunction()">Click me</button>
+</body>
+</html>
