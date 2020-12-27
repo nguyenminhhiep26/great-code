@@ -1,0 +1,32 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+#main{
+    background-image: url("img/lightning-01.jpg");
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#face{
+    background-image: url("img/frame.png");
+    width: 546px;
+    height: 629px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+#face-items{
+    width: 366px;
+    margin: auto;
+    overflow: hidden;
+}
+p{
+    color: #14cb14;
+    font-weight: bold;
+}

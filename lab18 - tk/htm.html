@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Monster Mashup</title>
+    <link rel="stylesheet" href="css.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js
+"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js
+"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css
+">
+</head>
+<body>
+<div id="container">
+    <div id="frame">
+        <img src="img/Monster_Mashup.png" alt="" height="33" width="286"/>
+        <p>Make your monster face by clicking on the picture</p>
+    </div>
+    <div id="face">
+        <div id="face-items">
+            <img id="headsstrip" onclick="changeItem('#headsstrip')" src="img/headsstrip.jpg" alt="" style="margin-top: 82px"/>
+            <img id="eyesstrip" onclick="changeItem('#eyesstrip')" src="img/eyesstrip.jpg" alt=""/>
+            <img id="nosesstrip" onclick="changeItem('#nosesstrip')" src="img/nosesstrip.jpg" alt=""/>
+            <img id="mouthsstrip" onclick="changeItem('#mouthsstrip')" src="img/mouthsstrip.jpg" alt=""/>
+        </div>
+    </div>
+</div>
+<script src="js.js">
+</script>
+</body>
+</html>
