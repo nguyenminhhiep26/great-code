@@ -1,0 +1,331 @@
+.img-absolute-parent{
+    position: relative;
+}
+.overflow-visible{
+    overflow: visible !important;
+}
+.pb-50{
+    padding-bottom: 50px !important;
+}
+section{
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup,
+main, menu, nav, section, summary{
+    display: block;
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+section{
+    display: block;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+}
+@media only screen and (max-width: 1199px)
+{
+    html{
+        font-size: 90%;
+    }
+}
+html, html a {
+    -webkit-font-smoothing: antialiased;
+}
+html{
+    font-size: 100%;
+    max-width: 100%;
+}
+html{
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html{
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::selection{
+    background: none repeat scroll 0 0 #393939;
+    color: #fff;
+}
+section#services
+.container{
+    padding-bottom: 0 !important;
+}
+#services .container,
+#gallery .container {
+   padding-top: 0;
+}
+section > .container,
+section > .container-fluid {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.mt-50{
+    margin-top: 50px !important;
+}
+@media (min-width: 992px)
+{
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 768px)
+{
+    .container {
+        width: 750px;
+        margin-right: 365px;
+    }
+}
+.container{
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-top: auto;
+}
+div {
+    display: block;
+}
+.container:before{
+    display: table;
+    content: " ";
+}
+.container:after{
+    clear: both;
+}
+.container:after{
+    display: table;
+    content: " ";
+}
+.section-title {
+    margin-bottom: 40px;
+}
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-center{
+    text-align: center!important;
+}
+.text-center{
+    text-align: center!important;
+}
+@media (min-width: 992px)
+{
+    .col-md-offset-3{
+        margin-left: 25%;
+    }
+}
+@media (min-width: 992px)
+{
+    .col-md-6
+    {
+        width: 50%;
+    }
+}
+@media (min-width: 992px)
+{
+    .col-md-6{
+        float: left;
+    }
+}
+.col-md-6{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.font-italic{
+    font-style: italic;
+}
+h2{
+    font-size: 5rem;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 0;
+    color: #222;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    scroll-margin-inline-end: 0px;
+}
+.subtitle{
+    color: #555;
+}
+p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+p{
+    margin: 0 0 10px;
+}
+p{
+    display:  block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.subtitle-divider
+{
+    position: relative;
+    height: 30px;
+}
+.divider {
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.subtitle-divider::before, .subtitle-divider::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 310px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.subtitle-divider::after {
+    background: #00cbd9 none repeat scroll 0 0;
+    top: 14px;
+    width: 110px;
+    height: 4px;
+}
+.p-0{
+    padding: 0!important;
+}
+@media (min-width: 992px)
+{
+    .col-md-6{
+        width: 50%;
+    }
+}
+.services-items{
+   -webkit-transition:  all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.services-items{
+    position: relative;
+}
+.divider, .parallax{
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.services-items::before{
+    content: " ";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.overlay-lightblue::before{
+    background-color: rgba(177,218,232,.95);
+}
+.overlay-lightgray::before{
+    background-color: rgba(222,222,222,0.95);
+}
+.overlay-lightyellow::before{
+    background-color: #c5c38f;
+}
+.services-items > div{
+    z-index: 1;
+    position: relative;
+}
+.pl-40{
+    padding-left: 40px !important;
+}
+.pr-40{
+    padding-right: 40px !important;
+}
+.p-30{
+    padding: 30px !important;
+}
+.services-items p {
+    letter-spacing: 1px;
+}
+.text-back{
+    color: #444;
+}
+.btn-colored.btn-text-back-hover-blue{
+    color: #444;
+}
+.btn-default, .btn-colored{
+    border-radius: 0;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 2px;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+a, i{
+    -webkit-transition: all 0.4s ease-in-out ;
+    transition: all 0.4s ease-in-out;
+}
+a{
+    color: #337ab7;
+}
+a{
+    background-color: transparent;
+}
+a:-webkit-any-link{
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+

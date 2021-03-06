@@ -1,0 +1,157 @@
+*{margin: 0; padding: 0}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+}
+/*section-1*/
+/*header*/
+.logo img {position: fixed;width: 160px;height:50px;top: 9px;z-index: 300;}
+
+.menu-wrapper {
+    width: 100%;
+    height: 70px;
+    background: #00000045;
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+}
+
+.menuzord-page {
+    width: 100%;
+    position:relative;
+    top:1px;
+}
+
+/*thay táº¡m*/
+li.nav-item a {
+    color: #d6d3af;
+}
+.menuzord-page ul.dropdown li {
+    clear: both;
+    width: 100%;
+    border: 0 none;
+    font-size: 15px;
+    position: relative;
+}
+
+.menuzord-page ul.dropdown li a {
+    width: 100%;
+    background: none;
+    padding: 10px 22px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    clear: both;
+    position: relative;
+    outline: 0;
+
+}
+
+.menuzord-page ul.dropdown, .menuzord ul.dropdown li ul.dropdown {
+    background: #00cbd9;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 99;
+    min-width: 180px;
+    white-space: nowrap;
+    opacity: 0;
+    overflow: hidden;
+
+}
+/*end-header*/
+
+/*section-1 */
+.main-content.img-page {
+    background-image: url("images/page_bg_header.jpg");
+
+}
+.divider, .parallax {
+    background-image: url(http://placehold.it/1920x1280);
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+/*section-breadcrumb*/
+section {
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+section#breadcrumb {
+    background: rgba(0, 0, 0, 0) url("images/breadcrumb.jpg ") repeat scroll 0 0;
+    display: block;
+    font-family: "Oswald",sans-serif;
+    width: 100%;
+    border-top: thick solid black;
+}
+
+.pb-0 {
+    padding-bottom: 0!important;
+}
+.pt-0 {
+    padding-top: 0!important;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 0 15px;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+
+.breadcrumb a {
+    color: #90f1f8;
+    text-decoration: none;
+}
+.breadcrumb-title {
+    font-size: 24px;
+}
+
+.breadcrumb.white li.active {
+    color: #fff;
+}
+.breadcrumb>.active {
+    color: #777;
+}
+.breadcrumb>li {
+    display: inline-block;
+}
+.breadcrumb-title-active {
+    font-size: 25px;
+}
+
+.breadcrumb .arrow {
+    background: rgba(0, 0, 0, 0) url("images/breadcrumb-arrow.png") no-repeat scroll 0 0;
+    display: inline-block;
+    height: 19px;
+    margin: 0 10px 0 7px;
+    width: 6px;
+}
+
+.mt-5 {
+    margin-top: 5px !important;
+}
+
+.text-left {
+    text-align: left;
+}

@@ -1,0 +1,227 @@
+.img-absolute-parent{
+    position: relative;
+}
+.overflow-visible{
+    overflow: visible !important;
+}
+.pb-50 {
+    padding-bottom: 50px !important;
+}
+.section{
+    background-color: #efefef;
+    display: block;
+}
+
+
+section#services .container {
+    padding-bottom: 0 !important;
+}
+#services .container, #gallery .container{
+    padding-top: 0;
+}
+.mt-50 {
+    margin-top: 50px !important;
+}
+@media (min-width: 1200px)
+{
+    .container {
+        width: 1170px;
+    }
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    background-color: #ffffff;
+}
+.container{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+::selection {
+    background: none repeat scroll 0 0 #393939;
+    color: #ffffff12;
+}
+
+.section-title{
+    margin-bottom: 40px;
+}
+div{
+    display: block;
+}
+.row:before{
+    display: table;
+    content: " ";
+}
+:after, :before{
+    box-sizing: border-box;
+}
+.row:after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+:after, :before{
+    box-sizing: border-box;
+}
+.text-center{
+    text-align: center !important;
+}
+@media (min-width: 992px)
+{
+    .col-md-offset-3 {
+        margin-left: 10%;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-6 {
+        width: 80%
+    }
+}
+
+.font-italic{
+    font-style: italic;
+}
+h2{
+    font-size: 5rem;
+    line-height: 1.3;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    margin-top: 0;
+    color: #222;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    scroll-margin-inline-end: 0px;
+}
+.subtitle{
+    color: #555;
+    font-size: 30px;
+    font-family: 'Bungee Shade', cursive;
+
+}
+.subtitle-divider
+{
+    position: relative;
+    height: 30px;
+}
+.p-0
+{
+    padding: 0!important;
+}
+.services-item{
+    position: relative;
+}
+.divider {
+    background-repeat: repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.overlay-lightblue:before{
+    background-color: rgba(177,218,232,.95);
+}
+
+.pl-40{
+    padding-left: 40px !important;
+}
+.pr-40{
+    padding-right: 40px !important;
+}
+.p-30{
+    padding: 15px !important;
+}
+.service-title{
+    font-size: 32px;
+    font-family: 'Playfair Display' , serif;
+}
+.text-back{
+    color: #181717 !important;
+}
+.btn-colored.btn-text-back-hover-blue{
+    color: #0c0b0b;
+}
+.btn-default, .btn-colored
+{
+    border-radius: 0;
+    font-weight: 400;
+    margin-right: 2px;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+}
+html, html a {
+    -webkit-font-smoothing: antialiased;
+}
+a,i {
+    transition: all 0.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0s;
+}
+a{
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    background-color: transparent;
+}
+.overlay-lightgray::before {
+    background-color: rgba(222,222,222,0.95);
+}
+h4{
+    line-height: 1.6;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.subtitle-divider::before, .subtitle-divider::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: 15px;
+    width: 310px;
+    right: 0;
+    margin: 0 auto;
+}
+
+.subtitle-divider::after {
+    background: #00cbd9 none repeat scroll 0 0;
+    top: 14px;
+    width: 110px;
+    height: 4px;
+}
+
+.Between{
+    font-size: 16px;
+
+}
+.contents{
+    height: 100%;
+    background-color: #ffffff;
+    width: 71.5%;
+    padding-left: 6%;
+    margin-left: 18%;
+}
+.read{
+    height: 44px;
+    background-color: #c73eee6e;
+}
