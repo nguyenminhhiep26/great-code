@@ -12,16 +12,16 @@ form{
     color: white;
     margin: 0 30px 30px 30px;
 }
-input[type=text]{
+.input1[type=text]{
     padding: 6px;
     width: 80%;
     font-size: 18px;
     border-radius: 0 10px 0 10px;
 }
-input[name=yourmessage]{
+.input1[name=yourmessage]{
     height: 50px;
 }
-input[type=submit]{
+.input1[type=submit]{
     background: #51def5;
     font-size: 15px;
     padding: 6px;
@@ -30,7 +30,7 @@ input[type=submit]{
     border: none;
     margin-left: 10px;
 }
-input[type=reset]{
+.input1[type=reset]{
     background: #e9e5e5;
     font-size: 15px;
     padding: 6px;
