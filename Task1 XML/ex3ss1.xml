@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Annual_Day company="Aptech">
+    <Event>
+        <Coordinator>
+            James
+        </Coordinator>
+        <SoundManager>
+            KIM
+        </SoundManager>
+        <Dircetor>
+            Daniel
+        </Dircetor>
+    </Event>
+    <Event>
+        Drama
+        <Name>A doctor's story</Name>
+        <Director>Spencor</Director>
+        <Participants number="4">Tony,Bony,Sam,Lily</Participants>
+
+    </Event>
+</Annual_Day>

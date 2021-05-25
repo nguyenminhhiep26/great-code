@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BookOrder OrderNo = "1111">
+    <OrderDate>
+        2002-05-26
+    </OrderDate>
+    <Customer>
+        <Title>Mr.</Title>
+        <FirstName>
+          Nguyễn  Minh
+        </FirstName>
+        <LatsName>
+            Hiệp
+        </LatsName>
+        <Candy>
+            <Title>Choco-Pie</Title>
+            <author>Orion</author>
+        </Candy>
+    </Customer>
+</BookOrder>

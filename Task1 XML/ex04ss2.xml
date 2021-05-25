@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Hospital Name="Brooklyn Hospital" xmlns:Data="http://www.aptechworldwide.com" xmlns:Admission="htpp://aptech.ac.in">
+    <Data:PatientDateils Data:PatientID="123456">
+        <Data:PatientData>
+            <Data:Name Data:Age="19" Data:Gender="Male">NGUYEN MINH HIEP</Data:Name>
+            <Data:Address>
+                <Data:Street>HA Nam</Data:Street>
+                <Data:Phone>0702096624</Data:Phone>
+            </Data:Address>
+        </Data:PatientData>
+        <Data:AilmentDetails>
+            <Data:Department Data:Floor="5">Neurology</Data:Department>
+            <Data:DoctorName>Mr.HIep</Data:DoctorName>
+        </Data:AilmentDetails>
+        <Data:AdmissionDetails>
+            <Admission:AdmittedOn>26-05-02</Admission:AdmittedOn>
+            <Admission:BoomNo Admission:Type="AC Cabin">4556</Admission:BoomNo>
+            <Admission:DischargedOn>45-77-04</Admission:DischargedOn>
+        </Data:AdmissionDetails>
+        <Data:PaymentDetails>
+            <Data:PaymentDetails>
+                <Data:InvoiceNo>4556789</Data:InvoiceNo>
+                <Data:Amount>$333</Data:Amount>
+                <Data:ModeOfPayment>Debit Card</Data:ModeOfPayment>
+                <Data:CardType>Maestro</Data:CardType>
+            </Data:PaymentDetails>
+        </Data:PaymentDetails>
+    </Data:PatientDateils>
+
+</Hospital>

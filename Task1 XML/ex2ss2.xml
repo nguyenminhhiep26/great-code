@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<DataShet xmlns:Data="http://www.aptechworldwide.com" xmlns:Payment="http://www.aptech.ac.in" >
+    <Data:Record>
+        <Data:Name>Nguyễn Minh Hiệp</Data:Name>
+        <Data:Source>Cambridge</Data:Source>
+        <Data:Destination>Norwich</Data:Destination>
+    <Data:TravelDetails>
+        <Data:TravelMode>Train</Data:TravelMode>
+        <Data:ModeName>Central Train</Data:ModeName>
+        <Data:TravelType>One Way</Data:TravelType>
+        <Data:TravelClass>Business Class</Data:TravelClass>
+        <Data:PNR>0702096624</Data:PNR>
+    </Data:TravelDetails>
+        <Data:NUmberOfPerson>2</Data:NUmberOfPerson>
+        <Data:DepartureDate>03-04-07</Data:DepartureDate>
+        <Data:ReturnDate>NA</Data:ReturnDate>
+     <Data:AmountDetails>
+         <Data:ModeOfPayment>Credit Card</Data:ModeOfPayment>
+         <Data:CardType>VISA</Data:CardType>
+         <Data:AmountDetail>$10</Data:AmountDetail>
+     </Data:AmountDetails>
+      <Data:Phone>0344047379</Data:Phone>
+       <Data:Hotel>
+           <Data:Address>13 Park Street, Cambridge</Data:Address>
+           <Data:CheckIn>03-04-07</Data:CheckIn>
+       </Data:Hotel>
+    </Data:Record>
+</DataShet>

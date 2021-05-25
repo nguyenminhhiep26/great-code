@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data:DataSheet xmlns:Data="http://aptechworldwide.com">
+    <Data:Record>
+        <Data:Name>NGUYEN MINH HIEP</Data:Name>
+        <Data:Source>Cambridge</Data:Source>
+        <Data:Destination>Norwich</Data:Destination>
+        <Data:TravelDetails>
+            <Data:TravaModel>Train</Data:TravaModel>
+            <Data:ModeName>Central Train</Data:ModeName>
+            <Data:TravelType>One Way</Data:TravelType>
+            <Data:TravelClass>Business Class</Data:TravelClass>
+            <Data:PNR>0709026624</Data:PNR>
+        </Data:TravelDetails>
+        <Data:NumberOfPerson>
+            2
+        </Data:NumberOfPerson>
+        <Data:DepartureDate>03-04-07</Data:DepartureDate>
+        <Data:ReturnDate>NA</Data:ReturnDate>
+        <Data:AmountDetails>
+            <Data:ModeOfPayment>Credit Card</Data:ModeOfPayment>
+            <Data:CardType>VISA</Data:CardType>
+            <Data:Amount>$30</Data:Amount>
+        </Data:AmountDetails>
+    </Data:Record>
+</Data:DataSheet>

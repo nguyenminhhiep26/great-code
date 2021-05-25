@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Data:Hospital Data:Name="Brooklyn Hospital" xmlns:Data="http://www.eptechworldwide">
+    <Data:PatientDetails Data:PatientID="123123">
+        <Data:PatientData>
+            <Data:Name Data:Age="19" Data:Gerder="Male">Nguyen MINH Hiep</Data:Name>
+            <Data:Address>
+                <Data:Street>LiemPhong - ThanhLiem - HaNam</Data:Street>
+                <Data:Phone>"0702096624"</Data:Phone>
+            </Data:Address>
+        </Data:PatientData>
+        <Data:AlimentDetails>
+            <Data:Department Data:Floor="5">Neurology</Data:Department>
+            <Data:DoctorName>Mr.Hiep</Data:DoctorName>
+        </Data:AlimentDetails>
+        <Data:AdmissionDetails>
+            <Data:AdmittedOn>02-05-26</Data:AdmittedOn>
+            <Data:RoomNo Data:Type="AC Cabin">456</Data:RoomNo>
+            <Data:DischargedOn>26-04-88</Data:DischargedOn>
+        </Data:AdmissionDetails>
+        <Data:PaymentDetails>
+            <Data:InvoiceNo>56789</Data:InvoiceNo>
+            <Data:Amount>"$300"</Data:Amount>
+            <Data:ModeOfPayment>Debit Card</Data:ModeOfPayment>
+            <Data:CardType>Maestro</Data:CardType>
+        </Data:PaymentDetails>
+    </Data:PatientDetails>
+</Data:Hospital>

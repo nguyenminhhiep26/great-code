@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Hotel_Audit>
+    <Hotel_Nam>
+        Precious View
+    </Hotel_Nam>
+    <Hotel_Address>
+        #1, Where Street, Where how City, Where why, 98045.
+        <Hot_Phone>
+            (650)1243-0000
+        </Hot_Phone>
+    </Hotel_Address>
+    <Hotel_Rating>
+        ***
+    </Hotel_Rating>
+    <Summary>
+        The hotel charges are reasonable.
+    </Summary>
+
+</Hotel_Audit>
